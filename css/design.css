@@ -267,3 +267,18 @@ a {
 a:hover {
     cursor: pointer;
 }
+
+/* Media queries para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    /* Adicione estilos específicos para telas menores aqui */
+    .site-nav a {
+        padding: 0.5em; /* Reduzir o padding para telas menores */
+    }
+    
+    .myButton {
+        font-size: 0.8em; /* Reduzir o tamanho da fonte para telas menores */
+        padding: 0.8em 1.5em; /* Reduzir o padding para telas menores */
+    }
+    
+    /* Mais ajustes conforme necessário */
+}
