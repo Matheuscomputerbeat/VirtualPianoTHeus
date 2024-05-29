@@ -282,3 +282,32 @@ a:hover {
     
     /* Mais ajustes conforme necessário */
 }
+/* Media queries para dispositivos móveis */
+@media only screen and (max-width: 600px) and (orientation: landscape) {
+    /* Adicione estilos específicos para telas menores em modo paisagem aqui */
+    .site-nav a {
+        padding: 0.5em; /* Reduzir o padding para telas menores em modo paisagem */
+    }
+    
+    .myButton {
+        font-size: 0.8em; /* Reduzir o tamanho da fonte para telas menores em modo paisagem */
+        padding: 0.8em 1.5em; /* Reduzir o padding para telas menores em modo paisagem */
+    }
+    
+    /* Mais ajustes conforme necessário */
+}
+
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+    /* Adicione estilos específicos para telas menores em modo retrato aqui */
+    .site-nav a {
+        padding: 0.5em; /* Reduzir o padding para telas menores em modo retrato */
+    }
+    
+    .myButton {
+        font-size: 0.8em; /* Reduzir o tamanho da fonte para telas menores em modo retrato */
+        padding: 0.8em 1.5em; /* Reduzir o padding para telas menores em modo retrato */
+    }
+    
+    /* Mais ajustes conforme necessário */
+}
+
