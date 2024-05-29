@@ -283,19 +283,32 @@ a:hover {
     /* Mais ajustes conforme necessário */
 }
 /* Media queries para dispositivos móveis */
-@media only screen and (max-width: 600px) and (orientation: landscape) {
-    /* Adicione estilos específicos para telas menores em modo paisagem aqui */
-    .site-nav a {
-        padding: 0.5em; /* Reduzir o padding para telas menores em modo paisagem */
+/* Adicione estilos globais aqui */
+
+/* Estilos específicos para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+    /* Estilos para dispositivos móveis */
+    .button-parent {
+        width: 100%; /* Ajustar largura para ocupar toda a largura da tela */
     }
-    
-    .myButton {
-        font-size: 0.8em; /* Reduzir o tamanho da fonte para telas menores em modo paisagem */
-        padding: 0.8em 1.5em; /* Reduzir o padding para telas menores em modo paisagem */
+
+    .button-side,
+    .button-middle {
+        width: 33.33%; /* Distribuir igualmente os botões em telas menores */
     }
-    
-    /* Mais ajustes conforme necessário */
+
+    .button-parent img:nth-child(1) {
+        height: auto; /* Permitir que a altura da imagem se ajuste automaticamente */
+    }
+
+    .button-children,
+    .button-separator {
+        top: 5%; /* Ajustar a posição vertical dos botões */
+    }
 }
+
+/* Outros estilos gerais aqui */
+
 
 @media only screen and (max-width: 600px) and (orientation: landscape) {
     /* Estilos para dispositivos móveis no modo paisagem */
